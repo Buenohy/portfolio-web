@@ -162,7 +162,7 @@
       "code-connect-auth": {
         "id": 3,
         "slug": "code-connect-auth",
-        "src": "/images/foto-perfil.jpg",
+        "src": "/images/code-connect/code-connect-1.png",
         "alt": "Interface de autenticação do Code Connect",
         "title": "Sistema de Autenticação SPA com Login Social",
         "tag": "CODE CONNECT",
@@ -191,17 +191,17 @@
           ],
           "gallery": [
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/code-connect/code-connect-1.png",
               "alt": "Tela de Login do Code Connect",
               "title": "Tela de Login"
             },
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/code-connect/code-connect-2.png",
               "alt": "Formulário de Cadastro",
               "title": "Tela de Cadastro"
             },
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/code-connect/code-connect-3.png",
               "alt": "Opções de login social",
               "title": "Login Social"
             }
