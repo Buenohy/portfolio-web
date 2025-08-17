@@ -212,7 +212,7 @@
       "javascript-calculator": {
         "id": 8,
         "slug": "javascript-calculator",
-        "src": "/images/foto-perfil.jpg",
+        "src": "/images/javascript-calculator/javascript-calculator-1.png",
         "alt": "Interface da Calculadora JavaScript",
         "title": "Calculadora Responsiva com JavaScript Puro",
         "tag": "PROJETO PESSOAL",
@@ -241,19 +241,24 @@
           ],
           "gallery": [
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/javascript-calculator/javascript-calculator-1.png",
               "alt": "Calculadora em tela de desktop",
               "title": "Visão Desktop"
             },
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/javascript-calculator/javascript-calculator-1.png",
               "alt": "Calculadora em tela de celular",
               "title": "Visão Mobile"
             },
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/javascript-calculator/javascript-calculator-2.png",
               "alt": "Calculadora realizando uma operação",
               "title": "Cálculo em Ação"
+            },
+            {
+              "src": "/images/javascript-calculator/javascript-calculator-3.png",
+              "alt": "Calculadora Resultado",
+              "title": "Resultado"
             }
           ]
         }

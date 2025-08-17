@@ -212,7 +212,7 @@
       "javascript-calculator": {
         "id": 8,
         "slug": "javascript-calculator",
-        "src": "/images/foto-perfil.jpg",
+        "src": "/images/javascript-calculator/javascript-calculator-1.png",
         "alt": "JavaScript Calculator Interface",
         "title": "Responsive Calculator with Vanilla JavaScript",
         "tag": "PERSONAL PROJECT",
@@ -241,19 +241,24 @@
           ],
           "gallery": [
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/javascript-calculator/javascript-calculator-1.png",
               "alt": "Calculator on a desktop screen",
               "title": "Desktop View"
             },
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/javascript-calculator/javascript-calculator-1.png",
               "alt": "Calculator on a mobile screen",
               "title": "Mobile View"
             },
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/javascript-calculator/javascript-calculator-2.png",
               "alt": "Calculator performing an operation",
               "title": "Calculation in Action"
+            },
+            {
+              "src": "/images/javascript-calculator/javascript-calculator-3.png",
+              "alt": "Calculator Result",
+              "title": "Result"
             }
           ]
         }
