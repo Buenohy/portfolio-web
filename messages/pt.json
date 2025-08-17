@@ -54,59 +54,8 @@
     "seeMoreButton": "Veja o Projeto Online",
     "gallerySectionAriaLabel": "Galeria de imagens do projeto",
     "projects": {
-      "saas-gestao-beleza-lyndus": {
-        "id": 1,
-        "slug": "saas-gestao-beleza-lyndus",
-        "src": "/images/foto-perfil.jpg",
-        "alt": "Interface do SaaS da Lyndus",
-        "title": "SaaS para gestão e crescimento de negócios de beleza e bem-estar",
-        "tag": "LYNDUS",
-        "badges": ["UX/UI", "WEB APPLICATION", "SASS", "STARTUP"],
-        "description": "Na Lyndus, minha jornada foi focada em revolucionar a experiência do usuário, liderando o redesign do sistema de gestão e desenvolvendo novas funcionalidades essenciais.",
-        "details": {
-          "titleParagraph": "Na Lyndus, eu contribui em diversas áreas:",
-          "strongParagraphs": [
-            {
-              "title": "Redesign e UX",
-              "text": "Liderando o redesign do sistema de gestão da plataforma, com foco em aprimorar a experiência do usuário e a usabilidade geral."
-            },
-            {
-              "title": "Desenvolvimento Frontend",
-              "text": "Desenvolvendo novas funcionalidades e implementando ajustes para garantir uma interface intuitiva e eficiente."
-            },
-            {
-              "title": "Engenharia UI/UX",
-              "text": "Colaborando na criação e melhoria das interfaces utilizando React, Next.js e TypeScript, aproveitando Shad UI e Tailwind CSS para acelerar o desenvolvimento e manter a consistência visual."
-            }
-          ],
-          "stacks": [
-            { "nameStack": "Figma", "iconStack": "devicon:figma" },
-            { "nameStack": "React", "iconStack": "devicon:react" },
-            { "nameStack": "Next.js", "iconStack": "devicon:nextjs" },
-            { "nameStack": "TypeScript", "iconStack": "devicon:typescript" },
-            { "nameStack": "Tailwind CSS", "iconStack": "devicon:tailwindcss" }
-          ],
-          "gallery": [
-            {
-              "src": "/images/foto-perfil.jpg",
-              "alt": "Tela de Login do Lyndus",
-              "title": "Tela de Login"
-            },
-            {
-              "src": "/images/foto-perfil.jpg",
-              "alt": "Dashboard do Lyndus",
-              "title": "Tela do Dashboard"
-            },
-            {
-              "src": "/images/foto-perfil.jpg",
-              "alt": "Calendário de Agendamentos",
-              "title": "Tela do Calendário"
-            }
-          ]
-        }
-      },
       "crypto-dashboard": {
-        "id": 6,
+        "id": 1,
         "slug": "crypto-dashboard",
         "src": "/images/foto-perfil.jpg",
         "alt": "Interface do Crypto Dashboard",
@@ -160,8 +109,58 @@
           ]
         }
       },
+      "professional-portfolio": {
+        "id": 2,
+        "slug": "professional-portfolio",
+        "src": "/images/foto-perfil.jpg",
+        "alt": "Interface do Portfólio Profissional",
+        "title": "Portfólio Pessoal de Alta Performance com Next.js",
+        "tag": "PROJETO PESSOAL",
+        "badges": ["WEB APPLICATION", "SEO", "SSR", "UI/UX"],
+        "description": "Desenvolvi meu portfólio profissional com Next.js e TypeScript, focando em performance, otimização para SEO com SSR e uma experiência de usuário interativa com filtragem de projetos e Dark Mode.",
+        "details": {
+          "titleParagraph": "Como Engenheiro de Software, meu objetivo foi criar uma vitrine digital que não apenas exibisse meus projetos, mas que também demonstrasse excelência técnica:",
+          "strongParagraphs": [
+            {
+              "title": "Performance e SEO com Renderização no Servidor (SSR)",
+              "text": "Utilizei Next.js e TypeScript para construir uma aplicação com Server-Side Rendering (SSR), garantindo uma ótima indexação por motores de busca (SEO) e alcançando tempos de carregamento inferiores a 1 segundo."
+            },
+            {
+              "title": "Filtragem de Projetos com Zero Latência",
+              "text": "Implementei um sistema de filtragem interativo e dinâmico para a galeria de projetos, utilizando o gerenciamento de estado do React para permitir que recrutadores e clientes naveguem por categorias instantaneamente."
+            },
+            {
+              "title": "Interface Moderna com Dark Mode Persistente",
+              "text": "Criei uma interface visualmente impactante com Tailwind CSS e Shadcn UI, integrando o Next-Theme para oferecer uma experiência de Dark Mode profissional e persistente, que melhora o conforto visual do usuário."
+            }
+          ],
+          "stacks": [
+            { "nameStack": "Next.js", "iconStack": "devicon:nextjs" },
+            { "nameStack": "TypeScript", "iconStack": "devicon:typescript" },
+            { "nameStack": "React", "iconStack": "devicon:react" },
+            { "nameStack": "Tailwind CSS", "iconStack": "devicon:tailwindcss" }
+          ],
+          "gallery": [
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Página inicial do portfólio com projetos",
+              "title": "Galeria de Projetos"
+            },
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Funcionalidade de filtro de projetos em ação",
+              "title": "Filtro Dinâmico"
+            },
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Portfólio exibido em modo escuro (Dark Mode)",
+              "title": "Tema Dark Mode"
+            }
+          ]
+        }
+      },
       "code-connect-auth": {
-        "id": 7,
+        "id": 3,
         "slug": "code-connect-auth",
         "src": "/images/foto-perfil.jpg",
         "alt": "Interface de autenticação do Code Connect",
@@ -209,62 +208,8 @@
           ]
         }
       },
-      "javascript-calculator": {
-        "id": 8,
-        "slug": "javascript-calculator",
-        "src": "/images/javascript-calculator/javascript-calculator-1.png",
-        "alt": "Interface da Calculadora JavaScript",
-        "title": "Calculadora Responsiva com JavaScript Puro",
-        "tag": "PROJETO PESSOAL",
-        "badges": ["WEB APPLICATION", "ALGORITHMS", "UI/UX", "SIDE PROJECT"],
-        "description": "Desenvolvi uma calculadora web totalmente funcional com JavaScript puro, criando um motor de cálculo que interpreta expressões matemáticas complexas e uma interface responsiva para uma experiência impecável em qualquer dispositivo.",
-        "details": {
-          "titleParagraph": "Como Engenheiro de Software, foquei em construir uma aplicação robusta e eficiente do zero, sem o uso de frameworks:",
-          "strongParagraphs": [
-            {
-              "title": "Motor de Cálculo Inteligente",
-              "text": "Desenvolvi o motor de cálculo do zero em JavaScript puro, implementando um algoritmo que analisa e avalia expressões matemáticas, respeitando a ordem de operações (PEMDAS) e o uso de parênteses."
-            },
-            {
-              "title": "Interface Responsiva com HTML/CSS",
-              "text": "Construí uma interface de usuário moderna e totalmente responsiva com HTML5 semântico e CSS Grid, garantindo uma experiência de uso intuitiva e consistente em desktops, tablets e dispositivos móveis."
-            },
-            {
-              "title": "Gerenciamento de Estado sem Frameworks",
-              "text": "Criei um sistema de gerenciamento de estado em JavaScript puro para controlar a entrada do usuário, as operações pendentes e a exibição do resultado, manipulando o DOM de forma eficiente sem depender de bibliotecas externas."
-            }
-          ],
-          "stacks": [
-            { "nameStack": "JavaScript", "iconStack": "devicon:javascript" },
-            { "nameStack": "HTML5", "iconStack": "devicon:html5" },
-            { "nameStack": "CSS3", "iconStack": "devicon:css3" }
-          ],
-          "gallery": [
-            {
-              "src": "/images/javascript-calculator/javascript-calculator-1.png",
-              "alt": "Calculadora em tela de desktop",
-              "title": "Visão Desktop"
-            },
-            {
-              "src": "/images/javascript-calculator/javascript-calculator-1.png",
-              "alt": "Calculadora em tela de celular",
-              "title": "Visão Mobile"
-            },
-            {
-              "src": "/images/javascript-calculator/javascript-calculator-2.png",
-              "alt": "Calculadora realizando uma operação",
-              "title": "Cálculo em Ação"
-            },
-            {
-              "src": "/images/javascript-calculator/javascript-calculator-3.png",
-              "alt": "Calculadora Resultado",
-              "title": "Resultado"
-            }
-          ]
-        }
-      },
       "bueno-books": {
-        "id": 9,
+        "id": 4,
         "slug": "bueno-books",
         "src": "/images/foto-perfil.jpg",
         "alt": "Interface da plataforma de livros Bueno Books",
@@ -317,52 +262,56 @@
           ]
         }
       },
-      "professional-portfolio": {
-        "id": 10,
-        "slug": "professional-portfolio",
-        "src": "/images/foto-perfil.jpg",
-        "alt": "Interface do Portfólio Profissional",
-        "title": "Portfólio Pessoal de Alta Performance com Next.js",
+      "javascript-calculator": {
+        "id": 5,
+        "slug": "javascript-calculator",
+        "src": "/images/javascript-calculator/javascript-calculator-1.png",
+        "alt": "Interface da Calculadora JavaScript",
+        "title": "Calculadora Responsiva com JavaScript Puro",
         "tag": "PROJETO PESSOAL",
-        "badges": ["WEB APPLICATION", "SEO", "SSR", "UI/UX"],
-        "description": "Desenvolvi meu portfólio profissional com Next.js e TypeScript, focando em performance, otimização para SEO com SSR e uma experiência de usuário interativa com filtragem de projetos e Dark Mode.",
+        "badges": ["WEB APPLICATION", "ALGORITHMS", "UI/UX", "SIDE PROJECT"],
+        "description": "Desenvolvi uma calculadora web totalmente funcional com JavaScript puro, criando um motor de cálculo que interpreta expressões matemáticas complexas e uma interface responsiva para uma experiência impecável em qualquer dispositivo.",
         "details": {
-          "titleParagraph": "Como Engenheiro de Software, meu objetivo foi criar uma vitrine digital que não apenas exibisse meus projetos, mas que também demonstrasse excelência técnica:",
+          "titleParagraph": "Como Engenheiro de Software, foquei em construir uma aplicação robusta e eficiente do zero, sem o uso de frameworks:",
           "strongParagraphs": [
             {
-              "title": "Performance e SEO com Renderização no Servidor (SSR)",
-              "text": "Utilizei Next.js e TypeScript para construir uma aplicação com Server-Side Rendering (SSR), garantindo uma ótima indexação por motores de busca (SEO) e alcançando tempos de carregamento inferiores a 1 segundo."
+              "title": "Motor de Cálculo Inteligente",
+              "text": "Desenvolvi o motor de cálculo do zero em JavaScript puro, implementando um algoritmo que analisa e avalia expressões matemáticas, respeitando a ordem de operações (PEMDAS) e o uso de parênteses."
             },
             {
-              "title": "Filtragem de Projetos com Zero Latência",
-              "text": "Implementei um sistema de filtragem interativo e dinâmico para a galeria de projetos, utilizando o gerenciamento de estado do React para permitir que recrutadores e clientes naveguem por categorias instantaneamente."
+              "title": "Interface Responsiva com HTML/CSS",
+              "text": "Construí uma interface de usuário moderna e totalmente responsiva com HTML5 semântico e CSS Grid, garantindo uma experiência de uso intuitiva e consistente em desktops, tablets e dispositivos móveis."
             },
             {
-              "title": "Interface Moderna com Dark Mode Persistente",
-              "text": "Criei uma interface visualmente impactante com Tailwind CSS e Shadcn UI, integrando o Next-Theme para oferecer uma experiência de Dark Mode profissional e persistente, que melhora o conforto visual do usuário."
+              "title": "Gerenciamento de Estado sem Frameworks",
+              "text": "Criei um sistema de gerenciamento de estado em JavaScript puro para controlar a entrada do usuário, as operações pendentes e a exibição do resultado, manipulando o DOM de forma eficiente sem depender de bibliotecas externas."
             }
           ],
           "stacks": [
-            { "nameStack": "Next.js", "iconStack": "devicon:nextjs" },
-            { "nameStack": "TypeScript", "iconStack": "devicon:typescript" },
-            { "nameStack": "React", "iconStack": "devicon:react" },
-            { "nameStack": "Tailwind CSS", "iconStack": "devicon:tailwindcss" }
+            { "nameStack": "JavaScript", "iconStack": "devicon:javascript" },
+            { "nameStack": "HTML5", "iconStack": "devicon:html5" },
+            { "nameStack": "CSS3", "iconStack": "devicon:css3" }
           ],
           "gallery": [
             {
-              "src": "/images/foto-perfil.jpg",
-              "alt": "Página inicial do portfólio com projetos",
-              "title": "Galeria de Projetos"
+              "src": "/images/javascript-calculator/javascript-calculator-1.png",
+              "alt": "Calculadora em tela de desktop",
+              "title": "Visão Desktop"
             },
             {
-              "src": "/images/foto-perfil.jpg",
-              "alt": "Funcionalidade de filtro de projetos em ação",
-              "title": "Filtro Dinâmico"
+              "src": "/images/javascript-calculator/javascript-calculator-1.png",
+              "alt": "Calculadora em tela de celular",
+              "title": "Visão Mobile"
             },
             {
-              "src": "/images/foto-perfil.jpg",
-              "alt": "Portfólio exibido em modo escuro (Dark Mode)",
-              "title": "Tema Dark Mode"
+              "src": "/images/javascript-calculator/javascript-calculator-2.png",
+              "alt": "Calculadora realizando uma operação",
+              "title": "Cálculo em Ação"
+            },
+            {
+              "src": "/images/javascript-calculator/javascript-calculator-3.png",
+              "alt": "Calculadora Resultado",
+              "title": "Resultado"
             }
           ]
         }

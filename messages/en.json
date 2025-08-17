@@ -54,59 +54,8 @@
     "seeMoreButton": "View Project Online",
     "gallerySectionAriaLabel": "Project image gallery",
     "projects": {
-      "saas-gestao-beleza-lyndus": {
-        "id": 1,
-        "slug": "saas-gestao-beleza-lyndus",
-        "src": "/images/foto-perfil.jpg",
-        "alt": "Lyndus SaaS Interface",
-        "title": "SaaS for management and growth of beauty and wellness businesses",
-        "tag": "LYNDUS",
-        "badges": ["UX/UI", "WEB APPLICATION", "SAAS", "STARTUP"],
-        "description": "At Lyndus, my journey was focused on revolutionizing the user experience, leading the redesign of the management system and developing essential new features.",
-        "details": {
-          "titleParagraph": "At Lyndus, I contributed in several areas:",
-          "strongParagraphs": [
-            {
-              "title": "Redesign and UX",
-              "text": "Leading the redesign of the platform's management system, focusing on improving the user experience and overall usability."
-            },
-            {
-              "title": "Frontend Development",
-              "text": "Developing new features and implementing adjustments to ensure an intuitive and efficient interface."
-            },
-            {
-              "title": "UI/UX Engineering",
-              "text": "Collaborating on the creation and improvement of interfaces using React, Next.js, and TypeScript, leveraging Shadcn UI and Tailwind CSS to accelerate development and maintain visual consistency."
-            }
-          ],
-          "stacks": [
-            { "nameStack": "Figma", "iconStack": "devicon:figma" },
-            { "nameStack": "React", "iconStack": "devicon:react" },
-            { "nameStack": "Next.js", "iconStack": "devicon:nextjs" },
-            { "nameStack": "TypeScript", "iconStack": "devicon:typescript" },
-            { "nameStack": "Tailwind CSS", "iconStack": "devicon:tailwindcss" }
-          ],
-          "gallery": [
-            {
-              "src": "/images/foto-perfil.jpg",
-              "alt": "Lyndus Login Screen",
-              "title": "Login Screen"
-            },
-            {
-              "src": "/images/foto-perfil.jpg",
-              "alt": "Lyndus Dashboard",
-              "title": "Dashboard Screen"
-            },
-            {
-              "src": "/images/foto-perfil.jpg",
-              "alt": "Scheduling Calendar",
-              "title": "Calendar Screen"
-            }
-          ]
-        }
-      },
       "crypto-dashboard": {
-        "id": 6,
+        "id": 1,
         "slug": "crypto-dashboard",
         "src": "/images/foto-perfil.jpg",
         "alt": "Crypto Dashboard Interface",
@@ -160,8 +109,58 @@
           ]
         }
       },
+      "professional-portfolio": {
+        "id": 2,
+        "slug": "professional-portfolio",
+        "src": "/images/foto-perfil.jpg",
+        "alt": "Professional Portfolio Interface",
+        "title": "High-Performance Personal Portfolio with Next.js",
+        "tag": "PERSONAL PROJECT",
+        "badges": ["WEB APPLICATION", "SEO", "SSR", "UI/UX"],
+        "description": "I developed my professional portfolio with Next.js and TypeScript, focusing on performance, SEO optimization via SSR, and an interactive user experience with project filtering and Dark Mode.",
+        "details": {
+          "titleParagraph": "As a Software Engineer, my goal was to create a digital showcase that not only displayed my projects but also demonstrated technical excellence:",
+          "strongParagraphs": [
+            {
+              "title": "Performance and SEO with Server-Side Rendering (SSR)",
+              "text": "I used Next.js and TypeScript to build an application with Server-Side Rendering (SSR), ensuring optimal search engine indexing (SEO) and achieving sub-1-second load times."
+            },
+            {
+              "title": "Zero-Latency Project Filtering",
+              "text": "I implemented an interactive and dynamic filtering system for the project gallery, using React's state management to allow recruiters and clients to browse categories instantly."
+            },
+            {
+              "title": "Modern UI with Persistent Dark Mode",
+              "text": "I crafted a visually impactful interface with Tailwind CSS and Shadcn UI, integrating Next-Theme to offer a professional, persistent Dark Mode experience that enhances user's visual comfort."
+            }
+          ],
+          "stacks": [
+            { "nameStack": "Next.js", "iconStack": "devicon:nextjs" },
+            { "nameStack": "TypeScript", "iconStack": "devicon:typescript" },
+            { "nameStack": "React", "iconStack": "devicon:react" },
+            { "nameStack": "Tailwind CSS", "iconStack": "devicon:tailwindcss" }
+          ],
+          "gallery": [
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Portfolio homepage with projects",
+              "title": "Project Gallery"
+            },
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Project filtering functionality in action",
+              "title": "Dynamic Filter"
+            },
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Portfolio displayed in Dark Mode",
+              "title": "Dark Mode Theme"
+            }
+          ]
+        }
+      },
       "code-connect-auth": {
-        "id": 7,
+        "id": 3,
         "slug": "code-connect-auth",
         "src": "/images/foto-perfil.jpg",
         "alt": "Code Connect authentication interface",
@@ -209,62 +208,8 @@
           ]
         }
       },
-      "javascript-calculator": {
-        "id": 8,
-        "slug": "javascript-calculator",
-        "src": "/images/javascript-calculator/javascript-calculator-1.png",
-        "alt": "JavaScript Calculator Interface",
-        "title": "Responsive Calculator with Vanilla JavaScript",
-        "tag": "PERSONAL PROJECT",
-        "badges": ["WEB APPLICATION", "ALGORITHMS", "UI/UX", "SIDE PROJECT"],
-        "description": "I developed a fully functional web calculator using vanilla JavaScript, creating a custom calculation engine that parses complex mathematical expressions and a responsive interface for a seamless experience on any device.",
-        "details": {
-          "titleParagraph": "As a Software Engineer, I focused on building a robust and efficient application from scratch without relying on frameworks:",
-          "strongParagraphs": [
-            {
-              "title": "Intelligent Calculation Engine",
-              "text": "I developed the calculation engine from the ground up in pure JavaScript, implementing an algorithm that parses and evaluates mathematical expressions while respecting the order of operations (PEMDAS) and parentheses."
-            },
-            {
-              "title": "Responsive UI with HTML/CSS",
-              "text": "I built a modern and fully responsive user interface with semantic HTML5 and CSS Grid, ensuring an intuitive and consistent user experience across desktops, tablets, and mobile devices."
-            },
-            {
-              "title": "Framework-Free State Management",
-              "text": "I created a state management system in vanilla JavaScript to handle user input, pending operations, and result display, efficiently manipulating the DOM without any external library dependencies."
-            }
-          ],
-          "stacks": [
-            { "nameStack": "JavaScript", "iconStack": "devicon:javascript" },
-            { "nameStack": "HTML5", "iconStack": "devicon:html5" },
-            { "nameStack": "CSS3", "iconStack": "devicon:css3" }
-          ],
-          "gallery": [
-            {
-              "src": "/images/javascript-calculator/javascript-calculator-1.png",
-              "alt": "Calculator on a desktop screen",
-              "title": "Desktop View"
-            },
-            {
-              "src": "/images/javascript-calculator/javascript-calculator-1.png",
-              "alt": "Calculator on a mobile screen",
-              "title": "Mobile View"
-            },
-            {
-              "src": "/images/javascript-calculator/javascript-calculator-2.png",
-              "alt": "Calculator performing an operation",
-              "title": "Calculation in Action"
-            },
-            {
-              "src": "/images/javascript-calculator/javascript-calculator-3.png",
-              "alt": "Calculator Result",
-              "title": "Result"
-            }
-          ]
-        }
-      },
       "bueno-books": {
-        "id": 9,
+        "id": 4,
         "slug": "bueno-books",
         "src": "/images/foto-perfil.jpg",
         "alt": "Interface of the Bueno Books platform",
@@ -317,52 +262,56 @@
           ]
         }
       },
-      "professional-portfolio": {
-        "id": 10,
-        "slug": "professional-portfolio",
-        "src": "/images/foto-perfil.jpg",
-        "alt": "Professional Portfolio Interface",
-        "title": "High-Performance Personal Portfolio with Next.js",
+      "javascript-calculator": {
+        "id": 5,
+        "slug": "javascript-calculator",
+        "src": "/images/javascript-calculator/javascript-calculator-1.png",
+        "alt": "JavaScript Calculator Interface",
+        "title": "Responsive Calculator with Vanilla JavaScript",
         "tag": "PERSONAL PROJECT",
-        "badges": ["WEB APPLICATION", "SEO", "SSR", "UI/UX"],
-        "description": "I developed my professional portfolio with Next.js and TypeScript, focusing on performance, SEO optimization via SSR, and an interactive user experience with project filtering and Dark Mode.",
+        "badges": ["WEB APPLICATION", "ALGORITHMS", "UI/UX", "SIDE PROJECT"],
+        "description": "I developed a fully functional web calculator using vanilla JavaScript, creating a custom calculation engine that parses complex mathematical expressions and a responsive interface for a seamless experience on any device.",
         "details": {
-          "titleParagraph": "As a Software Engineer, my goal was to create a digital showcase that not only displayed my projects but also demonstrated technical excellence:",
+          "titleParagraph": "As a Software Engineer, I focused on building a robust and efficient application from scratch without relying on frameworks:",
           "strongParagraphs": [
             {
-              "title": "Performance and SEO with Server-Side Rendering (SSR)",
-              "text": "I used Next.js and TypeScript to build an application with Server-Side Rendering (SSR), ensuring optimal search engine indexing (SEO) and achieving sub-1-second load times."
+              "title": "Intelligent Calculation Engine",
+              "text": "I developed the calculation engine from the ground up in pure JavaScript, implementing an algorithm that parses and evaluates mathematical expressions while respecting the order of operations (PEMDAS) and parentheses."
             },
             {
-              "title": "Zero-Latency Project Filtering",
-              "text": "I implemented an interactive and dynamic filtering system for the project gallery, using React's state management to allow recruiters and clients to browse categories instantly."
+              "title": "Responsive UI with HTML/CSS",
+              "text": "I built a modern and fully responsive user interface with semantic HTML5 and CSS Grid, ensuring an intuitive and consistent user experience across desktops, tablets, and mobile devices."
             },
             {
-              "title": "Modern UI with Persistent Dark Mode",
-              "text": "I crafted a visually impactful interface with Tailwind CSS and Shadcn UI, integrating Next-Theme to offer a professional, persistent Dark Mode experience that enhances user's visual comfort."
+              "title": "Framework-Free State Management",
+              "text": "I created a state management system in vanilla JavaScript to handle user input, pending operations, and result display, efficiently manipulating the DOM without any external library dependencies."
             }
           ],
           "stacks": [
-            { "nameStack": "Next.js", "iconStack": "devicon:nextjs" },
-            { "nameStack": "TypeScript", "iconStack": "devicon:typescript" },
-            { "nameStack": "React", "iconStack": "devicon:react" },
-            { "nameStack": "Tailwind CSS", "iconStack": "devicon:tailwindcss" }
+            { "nameStack": "JavaScript", "iconStack": "devicon:javascript" },
+            { "nameStack": "HTML5", "iconStack": "devicon:html5" },
+            { "nameStack": "CSS3", "iconStack": "devicon:css3" }
           ],
           "gallery": [
             {
-              "src": "/images/foto-perfil.jpg",
-              "alt": "Portfolio homepage with projects",
-              "title": "Project Gallery"
+              "src": "/images/javascript-calculator/javascript-calculator-1.png",
+              "alt": "Calculator on a desktop screen",
+              "title": "Desktop View"
             },
             {
-              "src": "/images/foto-perfil.jpg",
-              "alt": "Project filtering functionality in action",
-              "title": "Dynamic Filter"
+              "src": "/images/javascript-calculator/javascript-calculator-1.png",
+              "alt": "Calculator on a mobile screen",
+              "title": "Mobile View"
             },
             {
-              "src": "/images/foto-perfil.jpg",
-              "alt": "Portfolio displayed in Dark Mode",
-              "title": "Dark Mode Theme"
+              "src": "/images/javascript-calculator/javascript-calculator-2.png",
+              "alt": "Calculator performing an operation",
+              "title": "Calculation in Action"
+            },
+            {
+              "src": "/images/javascript-calculator/javascript-calculator-3.png",
+              "alt": "Calculator Result",
+              "title": "Result"
             }
           ]
         }
