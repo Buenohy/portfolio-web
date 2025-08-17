@@ -216,7 +216,7 @@
       "bueno-books": {
         "id": 4,
         "slug": "bueno-books",
-        "src": "/images/foto-perfil.jpg",
+        "src": "/images/bueno-books/bueno-books-1.png",
         "alt": "Interface da plataforma de livros Bueno Books",
         "title": "Plataforma de Descoberta de Livros com React",
         "tag": "PROJETO WEB",
@@ -250,17 +250,17 @@
           ],
           "gallery": [
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/bueno-books/bueno-books-1.png",
               "alt": "Busca de livros em tempo real na Bueno Books",
               "title": "Busca em Tempo Real"
             },
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/bueno-books/bueno-books-2.png",
               "alt": "Página inicial da Bueno Books com lançamentos",
               "title": "Página Principal"
             },
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/bueno-books/bueno-books-2.png",
               "alt": "Exemplo de componentes reutilizáveis da interface",
               "title": "Componentes Reutilizáveis"
             }

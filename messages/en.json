@@ -216,7 +216,7 @@
       "bueno-books": {
         "id": 4,
         "slug": "bueno-books",
-        "src": "/images/foto-perfil.jpg",
+        "src": "/images/bueno-books/bueno-books-1.png",
         "alt": "Interface of the Bueno Books platform",
         "title": "Book Discovery Platform with React",
         "tag": "WEB PROJECT",
@@ -250,17 +250,17 @@
           ],
           "gallery": [
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/bueno-books/bueno-books-1.png",
               "alt": "Real-time book search on Bueno Books",
               "title": "Real-Time Search"
             },
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/bueno-books/bueno-books-2.png",
               "alt": "Bueno Books homepage with latest releases",
               "title": "Main Page"
             },
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/bueno-books/bueno-books-2.png",
               "alt": "Example of reusable UI components",
               "title": "Reusable Components"
             }
