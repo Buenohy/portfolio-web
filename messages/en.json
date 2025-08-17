@@ -57,7 +57,7 @@
       "crypto-dashboard": {
         "id": 1,
         "slug": "crypto-dashboard",
-        "src": "/images/foto-perfil.jpg",
+        "src": "/images/crypto-dashboard/crypto-dashboard-2.png",
         "alt": "Crypto Dashboard Interface",
         "title": "Real-Time Cryptocurrency Dashboard",
         "tag": "PERSONAL PROJECT",
@@ -92,17 +92,27 @@
           ],
           "gallery": [
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/crypto-dashboard/crypto-dashboard-1.png",
               "alt": "Crypto Dashboard main screen",
               "title": "Main Dashboard"
             },
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/crypto-dashboard/crypto-dashboard-2.png",
               "alt": "Crypto Dashboard portfolio screen",
               "title": "My Portfolio"
             },
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/crypto-dashboard/crypto-dashboard-3.png",
+              "alt": "Crypto Dashboard in dark mode",
+              "title": "Dark Mode Theme"
+            },
+            {
+              "src": "/images/crypto-dashboard/crypto-dashboard-4.png",
+              "alt": "Crypto Dashboard in dark mode",
+              "title": "Dark Mode Theme"
+            },
+            {
+              "src": "/images/crypto-dashboard/crypto-dashboard-5.png",
               "alt": "Crypto Dashboard in dark mode",
               "title": "Dark Mode Theme"
             }

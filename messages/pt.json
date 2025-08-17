@@ -57,7 +57,7 @@
       "crypto-dashboard": {
         "id": 1,
         "slug": "crypto-dashboard",
-        "src": "/images/foto-perfil.jpg",
+        "src": "/images/crypto-dashboard/crypto-dashboard-2.png",
         "alt": "Interface do Crypto Dashboard",
         "title": "Dashboard de Criptomoedas com Dados em Tempo Real",
         "tag": "PROJETO PESSOAL",
@@ -92,17 +92,27 @@
           ],
           "gallery": [
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/crypto-dashboard/crypto-dashboard-1.png",
               "alt": "Tela principal do Crypto Dashboard",
               "title": "Dashboard Principal"
             },
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/crypto-dashboard/crypto-dashboard-2.png",
               "alt": "Tela de portfólio do Crypto Dashboard",
               "title": "Meu Portfólio"
             },
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/crypto-dashboard/crypto-dashboard-3.png",
+              "alt": "Crypto Dashboard em modo escuro",
+              "title": "Tema Dark Mode"
+            },
+            {
+              "src": "/images/crypto-dashboard/crypto-dashboard-4.png",
+              "alt": "Crypto Dashboard em modo escuro",
+              "title": "Tema Dark Mode"
+            },
+            {
+              "src": "/images/crypto-dashboard/crypto-dashboard-5.png",
               "alt": "Crypto Dashboard em modo escuro",
               "title": "Tema Dark Mode"
             }
