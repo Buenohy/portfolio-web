@@ -122,7 +122,7 @@
       "professional-portfolio": {
         "id": 2,
         "slug": "professional-portfolio",
-        "src": "/images/foto-perfil.jpg",
+        "src": "/images/portfolio-web/portfolio-web-8.png",
         "alt": "Professional Portfolio Interface",
         "title": "High-Performance Personal Portfolio with Next.js",
         "tag": "PERSONAL PROJECT",
@@ -152,17 +152,42 @@
           ],
           "gallery": [
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/portfolio-web/portfolio-web-1.png",
               "alt": "Portfolio homepage with projects",
               "title": "Project Gallery"
             },
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/portfolio-web/portfolio-web-2.png",
               "alt": "Project filtering functionality in action",
               "title": "Dynamic Filter"
             },
             {
-              "src": "/images/foto-perfil.jpg",
+              "src": "/images/portfolio-web/portfolio-web-3.png",
+              "alt": "Portfolio displayed in Dark Mode",
+              "title": "Dark Mode Theme"
+            },
+            {
+              "src": "/images/portfolio-web/portfolio-web-4.png",
+              "alt": "Portfolio displayed in Dark Mode",
+              "title": "Dark Mode Theme"
+            },
+            {
+              "src": "/images/portfolio-web/portfolio-web-5.png",
+              "alt": "Portfolio displayed in Dark Mode",
+              "title": "Dark Mode Theme"
+            },
+            {
+              "src": "/images/portfolio-web/portfolio-web-6.png",
+              "alt": "Portfolio displayed in Dark Mode",
+              "title": "Dark Mode Theme"
+            },
+            {
+              "src": "/images/portfolio-web/portfolio-web-7.png",
+              "alt": "Portfolio displayed in Dark Mode",
+              "title": "Dark Mode Theme"
+            },
+            {
+              "src": "/images/portfolio-web/portfolio-web-8.png",
               "alt": "Portfolio displayed in Dark Mode",
               "title": "Dark Mode Theme"
             }
