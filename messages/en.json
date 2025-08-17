@@ -1,0 +1,567 @@
+{
+  "Metadata": {
+    "title": "Gabriel Bueno | Front-end Software Engineer | React & Next.js",
+    "description": "Software Engineer specializing in building high-performance user interfaces with React, Next.js, and TypeScript. Explore projects focused on optimization, SEO, and user experience."
+  },
+  "Header": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "Footer": {
+    "createdBy": "Built by ",
+    "nameCreator": "Gabriel Bueno",
+    "copyright": "© 2025 gabrielbueno.com"
+  },
+  "NotFound": {
+    "title": "404 Error",
+    "subTitle": "The content you're looking for is not at this address.",
+    "description": "The URL may be mistyped, or the page may have been archived. Use the button below to navigate back to the portfolio.",
+    "buttonHomePage": "Return to Homepage"
+  },
+  "MenuBar": {
+    "home": "Home",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "services": "Services",
+    "contact": "Contact"
+  },
+  "DarkMode": {
+    "light": "Light",
+    "dark": "Dark",
+    "ariaLabel": "Change color theme"
+  },
+  "HomeSection": {
+    "greeting": "HELLO, I'M GABRIEL BUENO",
+    "mainTitle": "Software Engineer who builds<br></br>high-performance web interfaces.",
+    "cvButton": "Download CV",
+    "avatarAriaLabel": "Go to About Me section",
+    "avatarAlt": "Gabriel Bueno's profile picture"
+  },
+  "PortfolioSection": {
+    "title": "Featured Projects",
+    "viewMoreButton": "View All Projects"
+  },
+  "ProjectsCarousel": {
+    "seeMoreButton": "See More"
+  },
+  "ProjectDetailsPage": {
+    "closeButtonAriaLabel": "Close and return to portfolio",
+    "detailsSectionAriaLabel": "Project details and description",
+    "stacksAndToolsTitle": "Stacks & Tools:",
+    "seeMoreButton": "View Project Online",
+    "gallerySectionAriaLabel": "Project image gallery",
+    "projects": {
+      "saas-gestao-beleza-lyndus": {
+        "id": 1,
+        "slug": "saas-gestao-beleza-lyndus",
+        "src": "/images/foto-perfil.jpg",
+        "alt": "Lyndus SaaS Interface",
+        "title": "SaaS for management and growth of beauty and wellness businesses",
+        "tag": "LYNDUS",
+        "badges": ["UX/UI", "WEB APPLICATION", "SAAS", "STARTUP"],
+        "description": "At Lyndus, my journey was focused on revolutionizing the user experience, leading the redesign of the management system and developing essential new features.",
+        "details": {
+          "titleParagraph": "At Lyndus, I contributed in several areas:",
+          "strongParagraphs": [
+            {
+              "title": "Redesign and UX",
+              "text": "Leading the redesign of the platform's management system, focusing on improving the user experience and overall usability."
+            },
+            {
+              "title": "Frontend Development",
+              "text": "Developing new features and implementing adjustments to ensure an intuitive and efficient interface."
+            },
+            {
+              "title": "UI/UX Engineering",
+              "text": "Collaborating on the creation and improvement of interfaces using React, Next.js, and TypeScript, leveraging Shadcn UI and Tailwind CSS to accelerate development and maintain visual consistency."
+            }
+          ],
+          "stacks": [
+            { "nameStack": "Figma", "iconStack": "devicon:figma" },
+            { "nameStack": "React", "iconStack": "devicon:react" },
+            { "nameStack": "Next.js", "iconStack": "devicon:nextjs" },
+            { "nameStack": "TypeScript", "iconStack": "devicon:typescript" },
+            { "nameStack": "Tailwind CSS", "iconStack": "devicon:tailwindcss" }
+          ],
+          "gallery": [
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Lyndus Login Screen",
+              "title": "Login Screen"
+            },
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Lyndus Dashboard",
+              "title": "Dashboard Screen"
+            },
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Scheduling Calendar",
+              "title": "Calendar Screen"
+            }
+          ]
+        }
+      },
+      "crypto-dashboard": {
+        "id": 6,
+        "slug": "crypto-dashboard",
+        "src": "/images/foto-perfil.jpg",
+        "alt": "Crypto Dashboard Interface",
+        "title": "Real-Time Cryptocurrency Dashboard",
+        "tag": "PERSONAL PROJECT",
+        "badges": [
+          "WEB APPLICATION",
+          "DATA VISUALIZATION",
+          "FINTECH",
+          "SIDE PROJECT"
+        ],
+        "description": "I developed a comprehensive dashboard for cryptocurrency tracking and portfolio management, focusing on high performance and real-time data delivery using Next.js and the CoinGecko API.",
+        "details": {
+          "titleParagraph": "As a Software Engineer, I focused on delivering a high-performance and visually intuitive user experience:",
+          "strongParagraphs": [
+            {
+              "title": "Performance and Real-Time Data",
+              "text": "I optimized the application's performance by integrating the CoinGecko API with Server-Side Rendering (SSR) via Next.js, resulting in a 70% reduction in initial load time and ensuring up-to-the-minute market data."
+            },
+            {
+              "title": "Type-Safe Portfolio Management",
+              "text": "I built the 'My Portfolio' feature from scratch, allowing users to track their asset performance. The use of TypeScript ensured the integrity and security of all financial data handled by the application."
+            },
+            {
+              "title": "Modern & Responsive UI/UX",
+              "text": "I crafted a modern and fully responsive interface using Tailwind CSS and Shadcn UI, implementing interactive charts and a Dark Mode theme for a functional and visually appealing user experience (UX)."
+            }
+          ],
+          "stacks": [
+            { "nameStack": "Next.js", "iconStack": "devicon:nextjs" },
+            { "nameStack": "React", "iconStack": "devicon:react" },
+            { "nameStack": "TypeScript", "iconStack": "devicon:typescript" },
+            { "nameStack": "Tailwind CSS", "iconStack": "devicon:tailwindcss" }
+          ],
+          "gallery": [
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Crypto Dashboard main screen",
+              "title": "Main Dashboard"
+            },
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Crypto Dashboard portfolio screen",
+              "title": "My Portfolio"
+            },
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Crypto Dashboard in dark mode",
+              "title": "Dark Mode Theme"
+            }
+          ]
+        }
+      },
+      "code-connect-auth": {
+        "id": 7,
+        "slug": "code-connect-auth",
+        "src": "/images/foto-perfil.jpg",
+        "alt": "Code Connect authentication interface",
+        "title": "SPA Authentication System with Social Login",
+        "tag": "CODE CONNECT",
+        "badges": ["WEB APPLICATION", "AUTHENTICATION", "SECURITY", "UX"],
+        "description": "I developed a complete authentication system as a Single-Page Application (SPA), focusing on a streamlined user experience with social login and fluid navigation.",
+        "details": {
+          "titleParagraph": "My responsibility was to create a robust and intuitive authentication flow, from the user interface to the navigation logic:",
+          "strongParagraphs": [
+            {
+              "title": "Streamlined Social Login",
+              "text": "I implemented a secure authentication system featuring OAuth providers like Google and GitHub, simplifying the sign-up process to enhance the new user experience."
+            },
+            {
+              "title": "Fluid SPA Navigation",
+              "text": "I developed the entire login and registration flow as a Single-Page Application (SPA) using React Router DOM, ensuring instant transitions between routes without page reloads."
+            },
+            {
+              "title": "Responsive UI & Real-Time Validation",
+              "text": "I built a modern interface with Tailwind CSS and implemented client-side form validation, providing users with immediate feedback for a frictionless sign-up experience."
+            }
+          ],
+          "stacks": [
+            { "nameStack": "React", "iconStack": "devicon:react" },
+            { "nameStack": "TypeScript", "iconStack": "devicon:typescript" },
+            { "nameStack": "Tailwind CSS", "iconStack": "devicon:tailwindcss" }
+          ],
+          "gallery": [
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Code Connect Login Screen",
+              "title": "Login Screen"
+            },
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Registration Form",
+              "title": "Registration Screen"
+            },
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Social login options",
+              "title": "Social Login"
+            }
+          ]
+        }
+      },
+      "javascript-calculator": {
+        "id": 8,
+        "slug": "javascript-calculator",
+        "src": "/images/foto-perfil.jpg",
+        "alt": "JavaScript Calculator Interface",
+        "title": "Responsive Calculator with Vanilla JavaScript",
+        "tag": "PERSONAL PROJECT",
+        "badges": ["WEB APPLICATION", "ALGORITHMS", "UI/UX", "SIDE PROJECT"],
+        "description": "I developed a fully functional web calculator using vanilla JavaScript, creating a custom calculation engine that parses complex mathematical expressions and a responsive interface for a seamless experience on any device.",
+        "details": {
+          "titleParagraph": "As a Software Engineer, I focused on building a robust and efficient application from scratch without relying on frameworks:",
+          "strongParagraphs": [
+            {
+              "title": "Intelligent Calculation Engine",
+              "text": "I developed the calculation engine from the ground up in pure JavaScript, implementing an algorithm that parses and evaluates mathematical expressions while respecting the order of operations (PEMDAS) and parentheses."
+            },
+            {
+              "title": "Responsive UI with HTML/CSS",
+              "text": "I built a modern and fully responsive user interface with semantic HTML5 and CSS Grid, ensuring an intuitive and consistent user experience across desktops, tablets, and mobile devices."
+            },
+            {
+              "title": "Framework-Free State Management",
+              "text": "I created a state management system in vanilla JavaScript to handle user input, pending operations, and result display, efficiently manipulating the DOM without any external library dependencies."
+            }
+          ],
+          "stacks": [
+            { "nameStack": "JavaScript", "iconStack": "devicon:javascript" },
+            { "nameStack": "HTML5", "iconStack": "devicon:html5" },
+            { "nameStack": "CSS3", "iconStack": "devicon:css3" }
+          ],
+          "gallery": [
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Calculator on a desktop screen",
+              "title": "Desktop View"
+            },
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Calculator on a mobile screen",
+              "title": "Mobile View"
+            },
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Calculator performing an operation",
+              "title": "Calculation in Action"
+            }
+          ]
+        }
+      },
+      "bueno-books": {
+        "id": 9,
+        "slug": "bueno-books",
+        "src": "/images/foto-perfil.jpg",
+        "alt": "Interface of the Bueno Books platform",
+        "title": "Book Discovery Platform with React",
+        "tag": "WEB PROJECT",
+        "badges": [
+          "WEB APPLICATION",
+          "API INTEGRATION",
+          "UI/UX",
+          "COMPONENT-BASED"
+        ],
+        "description": "I developed Bueno Books, a book discovery platform featuring real-time search, built on a reusable component architecture with React and Tailwind CSS to ensure scalability.",
+        "details": {
+          "titleParagraph": "As a Software Engineer, I focused on creating an interactive and scalable user experience, from data fetching to visual presentation:",
+          "strongParagraphs": [
+            {
+              "title": "Real-Time Dynamic Search",
+              "text": "I implemented a search feature that filters and displays results from a book API instantly, using React component state to manage the query and update the UI without delay."
+            },
+            {
+              "title": "Scalable Component Architecture",
+              "text": "I architected the UI with reusable components (like Header and BookCard) in React and utilized Tailwind CSS for rapid, consistent styling, ensuring clean, maintainable, and scalable code."
+            },
+            {
+              "title": "Engaging Dynamic Content",
+              "text": "I created dynamic sections such as 'Latest Releases' and 'Suggestions' by consuming multiple API endpoints to enrich the platform and encourage user discovery of new titles."
+            }
+          ],
+          "stacks": [
+            { "nameStack": "React", "iconStack": "devicon:react" },
+            { "nameStack": "JavaScript", "iconStack": "devicon:javascript" },
+            { "nameStack": "Tailwind CSS", "iconStack": "devicon:tailwindcss" }
+          ],
+          "gallery": [
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Real-time book search on Bueno Books",
+              "title": "Real-Time Search"
+            },
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Bueno Books homepage with latest releases",
+              "title": "Main Page"
+            },
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Example of reusable UI components",
+              "title": "Reusable Components"
+            }
+          ]
+        }
+      },
+      "professional-portfolio": {
+        "id": 10,
+        "slug": "professional-portfolio",
+        "src": "/images/foto-perfil.jpg",
+        "alt": "Professional Portfolio Interface",
+        "title": "High-Performance Personal Portfolio with Next.js",
+        "tag": "PERSONAL PROJECT",
+        "badges": ["WEB APPLICATION", "SEO", "SSR", "UI/UX"],
+        "description": "I developed my professional portfolio with Next.js and TypeScript, focusing on performance, SEO optimization via SSR, and an interactive user experience with project filtering and Dark Mode.",
+        "details": {
+          "titleParagraph": "As a Software Engineer, my goal was to create a digital showcase that not only displayed my projects but also demonstrated technical excellence:",
+          "strongParagraphs": [
+            {
+              "title": "Performance and SEO with Server-Side Rendering (SSR)",
+              "text": "I used Next.js and TypeScript to build an application with Server-Side Rendering (SSR), ensuring optimal search engine indexing (SEO) and achieving sub-1-second load times."
+            },
+            {
+              "title": "Zero-Latency Project Filtering",
+              "text": "I implemented an interactive and dynamic filtering system for the project gallery, using React's state management to allow recruiters and clients to browse categories instantly."
+            },
+            {
+              "title": "Modern UI with Persistent Dark Mode",
+              "text": "I crafted a visually impactful interface with Tailwind CSS and Shadcn UI, integrating Next-Theme to offer a professional, persistent Dark Mode experience that enhances user's visual comfort."
+            }
+          ],
+          "stacks": [
+            { "nameStack": "Next.js", "iconStack": "devicon:nextjs" },
+            { "nameStack": "TypeScript", "iconStack": "devicon:typescript" },
+            { "nameStack": "React", "iconStack": "devicon:react" },
+            { "nameStack": "Tailwind CSS", "iconStack": "devicon:tailwindcss" }
+          ],
+          "gallery": [
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Portfolio homepage with projects",
+              "title": "Project Gallery"
+            },
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Project filtering functionality in action",
+              "title": "Dynamic Filter"
+            },
+            {
+              "src": "/images/foto-perfil.jpg",
+              "alt": "Portfolio displayed in Dark Mode",
+              "title": "Dark Mode Theme"
+            }
+          ]
+        }
+      }
+    }
+  },
+  "PortfolioPage": {
+    "title": "Projects",
+    "description": "Each project below is a practical showcase of how I use React, Next.js, and TypeScript to build high-impact digital solutions, with a focus on performance, scalability, and quality code."
+  },
+  "AboutSection": {
+    "sectionTitle": "About Me",
+    "mainHeading": "Result-Driven Software Engineering",
+    "paragraph1": "Hello! I'm Gabriel Bueno, a <strong>Front-end Software Engineer</strong> with one year of professional experience building with modern technologies. My mission is to leverage <strong>React, Next.js, and TypeScript</strong> to build interfaces that are not only visually appealing but, most importantly, fast, robust, and optimized for the user experience.",
+    "paragraph2": "As a self-taught professional, I'm driven by a curiosity for solving complex problems, from pure JavaScript algorithms to SSR performance optimizations. I believe the foundation of a great product is clean, maintainable code, which is why I follow the philosophy that <strong>quality code is code that any team member can read, understand, and maintain.</strong> I am a proactive, collaborative team player, adept at agile methodologies.",
+    "paragraph3": "I am currently seeking a <strong>fully remote opportunity</strong> to apply my passion for technology to challenging projects. If you're looking for a professional who combines technical expertise in performance and SEO with strong communication and a focus on teamwork, let's connect.",
+    "contactButton": "Get in Touch",
+    "linkedinButton": "View LinkedIn"
+  },
+  "StacksSection": {
+    "sectionTitle": "My Development Ecosystem",
+    "stacks": [
+      {
+        "id": 1,
+        "icon": "devicon:react",
+        "name": "React",
+        "alt": "React Icon"
+      },
+      {
+        "id": 2,
+        "icon": "devicon:nextjs",
+        "name": "Next.Js",
+        "alt": "Next.Js Icon"
+      },
+      {
+        "id": 3,
+        "icon": "devicon:typescript",
+        "name": "Typescript",
+        "alt": "Typescript Icon"
+      },
+      {
+        "id": 4,
+        "icon": "devicon:javascript",
+        "name": "Javascript",
+        "alt": "Javascript Icon"
+      },
+      {
+        "id": 5,
+        "icon": "devicon:tailwindcss",
+        "name": "Tailwind",
+        "alt": "Tailwind CSS Icon"
+      },
+      {
+        "id": 6,
+        "icon": "devicon:html5",
+        "name": "Html 5",
+        "alt": "Html 5 Icon"
+      },
+      {
+        "id": 7,
+        "icon": "devicon:css3",
+        "name": "Css 3",
+        "alt": "Css 3 Icon"
+      },
+      {
+        "id": 8,
+        "icon": "devicon:github",
+        "name": "Github",
+        "alt": "Github Icon"
+      },
+      {
+        "id": 9,
+        "icon": "devicon:gitlab",
+        "name": "Gitlab",
+        "alt": "Gitlab Icon"
+      },
+      {
+        "id": 10,
+        "icon": "logos:visual-studio-code",
+        "name": "VS Code",
+        "alt": "Visual Studio Code Icon"
+      },
+      {
+        "id": 11,
+        "icon": "devicon:figma",
+        "name": "Figma",
+        "alt": "Figma Icon"
+      },
+      {
+        "id": 12,
+        "icon": "devicon:xd",
+        "name": "Xd",
+        "alt": "Adobe Xd Icon"
+      },
+      {
+        "id": 13,
+        "icon": "devicon:vuejs",
+        "name": "Vue.Js",
+        "alt": "Vue.Js Icon"
+      },
+      {
+        "id": 14,
+        "icon": "logos:nuxt-icon",
+        "name": "Nuxt.Js",
+        "alt": "Nuxt.Js Icon"
+      },
+      {
+        "id": 15,
+        "icon": "devicon:vuetify",
+        "name": "Vuetify",
+        "alt": "Vuetify Icon"
+      },
+      {
+        "id": 16,
+        "icon": "devicon:sass",
+        "name": "Sass",
+        "alt": "Sass Icon"
+      },
+      {
+        "id": 17,
+        "icon": "skill-icons:wordpress",
+        "name": "WordPress",
+        "alt": "WordPress Icon"
+      },
+      {
+        "id": 18,
+        "icon": "logos:shopify",
+        "name": "Shopify",
+        "alt": "Shopify Icon"
+      },
+      {
+        "id": 19,
+        "icon": "devicon:bootstrap",
+        "name": "Bootstrap",
+        "alt": "Bootstrap Icon"
+      },
+      {
+        "id": 20,
+        "icon": "devicon:bitbucket",
+        "name": "Bitbucket",
+        "alt": "Bitbucket Icon"
+      },
+      {
+        "id": 21,
+        "icon": "devicon:flutter",
+        "name": "Flutter",
+        "alt": "Flutter Icon"
+      },
+      {
+        "id": 22,
+        "icon": "devicon:jquery",
+        "name": "Jquery",
+        "alt": "Jquery Icon"
+      },
+      {
+        "id": 23,
+        "icon": "devicon:photoshop",
+        "name": "Photoshop",
+        "alt": "Adobe Photoshop Icon"
+      },
+      {
+        "id": 24,
+        "icon": "devicon:illustrator",
+        "name": "Illustrator",
+        "alt": "Adobe Illustrator Icon"
+      }
+    ]
+  },
+  "ServicesSection": {
+    "sectionTitle": "What I Offer",
+    "mainHeading": "Building Modern &<br></br>High-Performance<br></br>Web Applications",
+    "subHeading": "Leveraging React, Next.js, and TypeScript, I focus on creating<br></br>fast, responsive, and scalable interfaces, optimized for both<br></br>user experience and search engines (SEO).",
+    "cards": [
+      {
+        "id": "development",
+        "iconHeader": "ph:code-bold",
+        "title": "Application Development",
+        "description": "Building robust and scalable interfaces with the most modern tech stack on the market.",
+        "badges": ["React", "Next.js", "TypeScript"],
+        "iconFooter": "ph:cube-focus-bold"
+      },
+      {
+        "id": "performance",
+        "iconHeader": "ph:rocket-launch-bold",
+        "title": "Optimization & SEO",
+        "description": "Implementing SSR to ensure ultra-fast load times and the best indexing on search engines.",
+        "badges": ["SSR", "SEO", "Vercel"],
+        "iconFooter": "carbon:meter"
+      },
+      {
+        "id": "ui-implementation",
+        "iconHeader": "ph:paint-brush-broad-bold",
+        "title": "UI/UX Implementation",
+        "description": "Translating designs (Figma, Adobe XD) into interactive, intuitive, and pixel-perfect components.",
+        "badges": ["Figma", "Tailwind CSS", "Shadcn UI"],
+        "iconFooter": "ph:devices-bold"
+      }
+    ]
+  },
+  "ContactSection": {
+    "mainHeading": "Have a project in mind?",
+    "subHeading": "Let's talk.",
+    "description": "I'm always looking for new challenges where I can apply my passion for technology and software engineering. If you have an idea that needs robust technical execution, a high-performance interface, or a proactive partner for your team, I would love to hear about it.",
+    "ctaButton": "Send an Email",
+    "emailAddress": "hello.gabrielbuenohygino@gmail.com"
+  }
+}
