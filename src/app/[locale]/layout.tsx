@@ -6,16 +6,15 @@ import MenuBar from '@/components/MenuBar/MenuBar';
 import Footer from '@/components/Footer/Footer';
 
 import type { Metadata } from 'next';
-// Importe o 'getMessages' para carregar as traduções
-import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations } from 'next-intl/server';
-import { hasLocale } from 'next-intl/server'; // Importe 'hasLocale' do server
+import { NextIntlClientProvider, hasLocale } from 'next-intl';
+import { getTranslations } from 'next-intl/server';
 
 export async function generateMetadata({
-  params: { locale }, // Forma correta de receber o locale
+  params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'Metadata' });
   return {
     title: t('title'),
@@ -23,31 +22,20 @@ export async function generateMetadata({
   };
 }
 
-// Corrija a assinatura da função para receber o locale diretamente
 export default async function LocaleLayout({
   children,
-  params: { locale },
+  params,
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
-  // Verifique se o locale é válido
+  const { locale } = await params;
   if (!hasLocale(routing.locales, locale)) {
     notFound();
   }
 
-  // 1. Carregue as mensagens para o locale atual
-  let messages;
-  try {
-    messages = await getMessages();
-  } catch (error) {
-    // Se não encontrar mensagens, navega para a página 404
-    notFound();
-  }
-
   return (
-    // 2. Passe as mensagens para o provider usando a prop 'messages'
-    <NextIntlClientProvider locale={locale} messages={messages}>
+    <NextIntlClientProvider>
       <HeaderVisibilityProvider>
         <Header />
         <main>{children}</main>
