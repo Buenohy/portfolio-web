@@ -40,7 +40,7 @@ To view and run the project locally, follow the steps below:
 2.  **Navigate to the project folder:**
 
     ```sh
-    cd [portfolio-web]
+    cd portfolio-web
     ```
 
 3.  **Install the dependencies:**
@@ -113,7 +113,7 @@ Para visualizar e executar o projeto localmente, siga os passos abaixo:
 2.  **Navegue até a pasta do projeto:**
 
     ```sh
-    cd [NOME-DA-PASTA-DO-PROJETO]
+    cd portfolio-web
     ```
 
 3.  **Instale as dependências:**
