@@ -448,75 +448,39 @@
       },
       {
         "id": 13,
-        "icon": "devicon:vuejs",
-        "name": "Vue.Js",
-        "alt": "Vue.Js Icon"
-      },
-      {
-        "id": 14,
-        "icon": "logos:nuxt-icon",
-        "name": "Nuxt.Js",
-        "alt": "Nuxt.Js Icon"
-      },
-      {
-        "id": 15,
-        "icon": "devicon:vuetify",
-        "name": "Vuetify",
-        "alt": "Vuetify Icon"
-      },
-      {
-        "id": 16,
         "icon": "devicon:sass",
         "name": "Sass",
         "alt": "Sass Icon"
       },
       {
-        "id": 17,
+        "id": 14,
         "icon": "skill-icons:wordpress",
         "name": "WordPress",
         "alt": "WordPress Icon"
       },
       {
-        "id": 18,
+        "id": 15,
         "icon": "logos:shopify",
         "name": "Shopify",
         "alt": "Shopify Icon"
       },
       {
-        "id": 19,
+        "id": 16,
         "icon": "devicon:bootstrap",
         "name": "Bootstrap",
         "alt": "Bootstrap Icon"
       },
       {
-        "id": 20,
+        "id": 17,
         "icon": "devicon:bitbucket",
         "name": "Bitbucket",
         "alt": "Bitbucket Icon"
       },
       {
-        "id": 21,
-        "icon": "devicon:flutter",
-        "name": "Flutter",
-        "alt": "Flutter Icon"
-      },
-      {
-        "id": 22,
-        "icon": "devicon:jquery",
-        "name": "Jquery",
-        "alt": "Jquery Icon"
-      },
-      {
-        "id": 23,
+        "id": 18,
         "icon": "devicon:photoshop",
         "name": "Photoshop",
         "alt": "Adobe Photoshop Icon"
-      },
-      {
-        "id": 24,
-        "icon": "devicon:illustrator",
-        "name": "Illustrator",
-        "alt": "Adobe Illustrator Icon"
       }
     ]
   },
