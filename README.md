@@ -77,7 +77,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 # Portifólio Profissional
 
-![Screenshot do Portfólio]([/public/images/portfolio-web/portfolio-web-9.png])
+![Screenshot do Portfólio](/public/images/portfolio-web/portfolio-web-9.png)
 
 ## 📝 Descrição
 
