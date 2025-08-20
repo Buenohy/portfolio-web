@@ -41,7 +41,7 @@ export default function ProjectDetailsPage() {
   let project: Project;
   try {
     project = t.raw(projectKey);
-  } catch (error) {
+  } catch (_error) {
     notFound();
   }
 
@@ -98,7 +98,6 @@ export default function ProjectDetailsPage() {
               {project.details.stacks.map((stack, index) => (
                 <li
                   key={index}
-                  tabIndex={0}
                   className="group bg-white-pure dark:bg-dark-black border-gray dark:border-gray-teste shadow-dark-black/30 dark:shadow-white-pure/30 relative z-10 -mr-3 flex h-10 w-10 transform cursor-pointer items-center justify-center rounded-full border shadow-lg transition-transform duration-500 ease-in-out hover:scale-115 focus:scale-115 focus-visible:scale-115 active:scale-115 sm:h-13 sm:w-13 2xl:h-20 2xl:w-20"
                 >
                   <span className="stack-name-project">{stack.nameStack}</span>
