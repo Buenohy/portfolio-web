@@ -1,12 +1,13 @@
 import { Link } from '@/i18n/navigation';
 import { GoArrowRight } from 'react-icons/go';
 import { ProjectsCarousel } from '@/components/ProjectsCarousel/ProjectsCarousel';
+import { Project } from '@/types/project-types';
 
 type PortfolioSectionProps = {
   translations: {
     title: string;
     viewMoreButton: string;
-    projects: Record<string, any>;
+    projects: Record<string, Project>;
     seeMoreButton: string;
   };
 };
