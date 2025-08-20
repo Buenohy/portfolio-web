@@ -41,7 +41,7 @@ export default function ProjectDetailsPage() {
   let project: Project;
   try {
     project = t.raw(projectKey);
-  } catch (_error) {
+  } catch {
     notFound();
   }
 
