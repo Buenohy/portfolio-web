@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import AboutSection from '@/components/Sections/AboutSection';
 import { getTranslations } from 'next-intl/server';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl/server';
 
 export async function generateMetadata({
   params,
@@ -23,7 +23,7 @@ export default async function AboutPage({
 }) {
   const { locale } = await params;
 
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
 
   const t = await getTranslations({ locale, namespace: 'AboutPage' });
   const tRich = await getTranslations({ locale, namespace: 'AboutPage.rich' });
