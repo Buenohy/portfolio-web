@@ -1,21 +1,26 @@
 import type { Metadata } from 'next';
 import AboutSection from '@/components/Sections/AboutSection';
 import { getTranslations } from 'next-intl/server';
-
-type Props = {
-  params: { locale: string };
-};
+import { setRequestLocale } from 'next-intl';
 
 export async function generateMetadata({
   params: { locale },
-}: Props): Promise<Metadata> {
+}: {
+  params: { locale: string };
+}): Promise<Metadata> {
   const t = await getTranslations({ locale, namespace: 'AboutPage' });
   return {
     title: t('metaTitle'),
   };
 }
 
-export default async function AboutPage({ params: { locale } }: Props) {
+export default async function AboutPage({
+  params: { locale },
+}: {
+  params: { locale: string };
+}) {
+  setRequestLocale(locale);
+
   const t = await getTranslations({ locale, namespace: 'AboutPage' });
   const tRich = await getTranslations({ locale, namespace: 'AboutPage.rich' });
 
