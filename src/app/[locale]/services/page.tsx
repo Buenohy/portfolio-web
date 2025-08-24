@@ -24,5 +24,18 @@ export default async function ServicesPage({
 
   setRequestLocale(locale);
 
-  return <ServicesSection />;
+  const t = await getTranslations({ locale, namespace: 'ServicesSection' });
+
+  const translations = {
+    sectionTitle: t('sectionTitle'),
+    mainHeading: t.rich('mainHeading', {
+      br: () => <br />,
+    }),
+    subHeading: t.rich('subHeading', {
+      br: () => <br />,
+    }),
+    cards: t.raw('cards'),
+  };
+
+  return <ServicesSection translations={translations} />;
 }
