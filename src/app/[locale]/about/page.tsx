@@ -1,7 +1,7 @@
 import type { Metadata } from 'next';
 import AboutSection from '@/components/Sections/AboutSection';
 import { getTranslations } from 'next-intl/server';
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { setRequestLocale } from 'next-intl';
 
 type Props = {
   params: { locale: string };
@@ -17,7 +17,7 @@ export async function generateMetadata({
 }
 
 export default async function AboutPage({ params: { locale } }: Props) {
-  unstable_setRequestLocale(locale);
+  setRequestLocale(locale);
 
   const t = await getTranslations({ locale, namespace: 'AboutPage' });
   const tRich = await getTranslations({ locale, namespace: 'AboutPage.rich' });
