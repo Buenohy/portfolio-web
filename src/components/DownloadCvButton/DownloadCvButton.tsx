@@ -12,13 +12,13 @@ export default function DownloadCVButton({ text }: DownloadCVButtonProps) {
 
   const cvPath =
     locale === 'pt'
-      ? '/gabriel-bueno-curriculo-pt.pdf'
-      : '/gabriel-bueno-resume-en.pdf';
+      ? '/CV_Gabriel_Bueno_pt-br.pdf'
+      : '/CV_Gabriel_Bueno_en-us.pdf';
 
   const downloadFilename =
     locale === 'pt'
-      ? 'Curriculo-Gabriel-Bueno.pdf'
-      : 'Resume-Gabriel-Bueno.pdf';
+      ? 'CV_Gabriel_Bueno_pt-br.pdf'
+      : 'CV_Gabriel_Bueno_en-us.pdf';
 
   return (
     <a
