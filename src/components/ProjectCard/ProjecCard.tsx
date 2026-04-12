@@ -16,15 +16,15 @@ export function ProjectCard({ project, href }: ProjectCardProps) {
 
   return (
     <div className="flex flex-col">
-      <Card className="bg-main text-white-pure h-fit w-full rounded-lg border border-[#fbfbff1a] p-0">
-        <CardContent className="aspect-square h-fit w-full p-0">
-          <Link href={href}>
+      <Card className="text-white-pure border-main h-fit w-full rounded-lg border-2 bg-transparent p-0">
+        <CardContent className="aspect-square h-fit w-full rounded-lg bg-transparent p-0">
+          <Link href={href} className="block h-full w-full">
             <Image
               src={src}
               alt={alt}
               width={370}
               height={370}
-              className="h-full w-full cursor-pointer rounded-lg object-cover"
+              className="h-full w-full cursor-pointer rounded-lg bg-transparent object-contain"
             />
           </Link>
         </CardContent>
