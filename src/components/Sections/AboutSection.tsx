@@ -17,7 +17,6 @@ type AboutSectionProps = {
 export default function AboutSection({ translations }: AboutSectionProps) {
   return (
     <section className="px-5 lg:px-10" id="about">
-      {/* Container centralizado com largura máxima */}
       <div className="mx-auto max-w-7xl">
         <div className="text-center">
           <h2 className="text-dark-black dark:text-white-pure text-xl md:text-2xl">
@@ -36,7 +35,6 @@ export default function AboutSection({ translations }: AboutSectionProps) {
             height={484}
             className="mx-auto my-5 max-h-[464px] w-full max-w-[464px] rounded-2xl object-cover"
           />
-          {/* Adicionado max-w-3xl para limitar a largura do texto em telas grandes */}
           <div className="my-6 space-y-6 lg:mx-auto lg:max-w-3xl">
             <p className="text-dark-black dark:text-white-pure text-center lg:text-left lg:leading-7">
               {translations.paragraph1}

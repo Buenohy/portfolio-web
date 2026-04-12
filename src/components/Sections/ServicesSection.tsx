@@ -34,7 +34,7 @@ export default function ServicesSection({
 }: ServicesSectionProps) {
   return (
     <section className="flex flex-col gap-10 px-5 pb-30 lg:px-10" id="services">
-      <div className="2xl:mx-150">
+      <div className="mx-auto max-w-7xl">
         <div className="lg:flex lg:self-start">
           <div>
             <h2 className="text-dark-black dark:text-white-pure my-1 text-xl font-bold uppercase sm:text-2xl lg:mb-4">
@@ -54,22 +54,20 @@ export default function ServicesSection({
             ({ id, iconHeader, title, description, badges, iconFooter }) => (
               <li key={id} className="lg:flex lg:flex-col">
                 <article className="lg:flex lg:flex-col">
-                  <Card className="shadow-dark-black/30 dark:shadow-white-pure/30 flex flex-col rounded-xl bg-gradient-to-b from-[#0c1c251a]/200 via-white to-white shadow-xl sm:flex-row sm:items-center sm:justify-center sm:gap-5 lg:flex lg:flex-col lg:gap-7 dark:border-[#fbfbff1a] dark:bg-gradient-to-b dark:from-[#29292b] dark:via-[#0c1c251a] dark:to-[#0c1c251a]">
-                    <CardContent className="flex flex-col items-center justify-center sm:flex sm:flex-row lg:flex-col">
-                      <CardHeader className="text-dark-black dark:text-white-pure items-center justify-center p-6 text-center sm:min-w-1/3">
-                        <span className="flex items-center justify-center">
-                          <Icon icon={iconHeader} className="h-30 w-30" />
-                        </span>
+                  <Card className="shadow-dark-black/30 dark:shadow-white-pure/30 flex h-full flex-col rounded-xl bg-gradient-to-b from-[#0c1c251a]/200 via-white to-white shadow-xl dark:border-[#fbfbff1a] dark:bg-gradient-to-b dark:from-[#29292b] dark:via-[#0c1c251a] dark:to-[#0c1c251a]">
+                    <CardContent className="flex flex-col items-center justify-center p-6">
+                      <CardHeader className="text-dark-black dark:text-white-pure flex items-center justify-center p-0 pb-4">
+                        <Icon icon={iconHeader} className="h-30 w-30" />
                       </CardHeader>
 
-                      <div className="px-5 sm:min-w-1/3 sm:p-6">
+                      <div className="text-center">
                         <CardTitle className="text-dark-black dark:text-white-pure text-3xl">
                           {title}
                         </CardTitle>
                         <CardDescription className="text-dark-black dark:text-white-pure my-4 text-base font-light">
                           {description}
                         </CardDescription>
-                        <div className="flex flex-wrap gap-2">
+                        <div className="flex flex-wrap justify-center gap-2">
                           {badges.map((badge, idx) => (
                             <Badge
                               key={idx}
@@ -81,10 +79,8 @@ export default function ServicesSection({
                         </div>
                       </div>
 
-                      <CardFooter className="text-dark-black dark:text-white-pure items-center justify-center p-6 text-center sm:min-w-1/3">
-                        <span className="flex items-center justify-center">
-                          <Icon icon={iconFooter} className="h-30 w-30" />
-                        </span>
+                      <CardFooter className="text-dark-black dark:text-white-pure mt-4 flex items-center justify-center p-0">
+                        <Icon icon={iconFooter} className="h-30 w-30" />
                       </CardFooter>
                     </CardContent>
                   </Card>
