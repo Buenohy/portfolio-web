@@ -16,7 +16,7 @@ type ContactSectionProps = {
 export default function ContactSection({ translations }: ContactSectionProps) {
   return (
     <section id="contact" className="bg-main px-5 lg:px-10">
-      <div className="flex flex-col items-center justify-center py-15 text-center md:mx-18 lg:mx-45 2xl:mx-237 2xl:py-64">
+      <div className="mx-auto flex max-w-7xl flex-col items-center justify-center py-15 text-center 2xl:py-64">
         <span className="animate-[spin_5000ms_linear_infinite] py-10">
           <YinYangIcon
             className="h-25 w-25 md:h-50 md:w-50"
