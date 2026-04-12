@@ -17,7 +17,8 @@ type AboutSectionProps = {
 export default function AboutSection({ translations }: AboutSectionProps) {
   return (
     <section className="px-5 lg:px-10" id="about">
-      <div className="grid 2xl:mx-195">
+      {/* Container centralizado com largura máxima */}
+      <div className="mx-auto max-w-7xl">
         <div className="text-center">
           <h2 className="text-dark-black dark:text-white-pure text-xl md:text-2xl">
             {translations.sectionTitle}
@@ -26,6 +27,7 @@ export default function AboutSection({ translations }: AboutSectionProps) {
             {translations.mainHeading}
           </h3>
         </div>
+
         <div className="my-10 grid grid-cols-1 gap-5 lg:grid-cols-2 lg:items-center">
           <Image
             src="/images/foto-perfil.jpg"
@@ -34,7 +36,8 @@ export default function AboutSection({ translations }: AboutSectionProps) {
             height={484}
             className="mx-auto my-5 max-h-[464px] w-full max-w-[464px] rounded-2xl object-cover"
           />
-          <div className="my-6 space-y-6">
+          {/* Adicionado max-w-3xl para limitar a largura do texto em telas grandes */}
+          <div className="my-6 space-y-6 lg:mx-auto lg:max-w-3xl">
             <p className="text-dark-black dark:text-white-pure text-center lg:text-left lg:leading-7">
               {translations.paragraph1}
             </p>
@@ -46,7 +49,8 @@ export default function AboutSection({ translations }: AboutSectionProps) {
             </p>
           </div>
         </div>
-        <div className="flex flex-col gap-5 py-10 text-center lg:mx-auto lg:flex-row">
+
+        <div className="flex flex-col gap-5 py-10 text-center lg:mx-auto lg:flex-row lg:justify-center">
           <Link href="#contact" className="button-primary">
             <span>{translations.contactButton}</span>
           </Link>
