@@ -18,7 +18,7 @@ export default function HomeSection({ translations }: HomeSectionProps) {
       id="home"
       className="flex items-center justify-center scroll-smooth px-5 pt-20 pb-30 md:px-10"
     >
-      <div className="mx-auto flex w-fit flex-col">
+      <div className="mx-auto mt-10 flex w-fit flex-col">
         <div className="lg:flex lg:gap-8">
           <div>
             <div className="flex justify-start py-5">
