@@ -119,12 +119,12 @@ export default function ProjectDetailsPage() {
         </section>
         <section
           aria-label={t('gallerySectionAriaLabel')}
-          className="bg-bg-project dark:bg-gray-teste flex flex-col gap-10 overflow-y-auto p-5 md:col-span-5 lg:col-span-7 xl:col-span-8"
+          className="bg-bg-project flex flex-col items-center gap-10 overflow-y-auto p-5 md:col-span-5 lg:col-span-7 xl:col-span-8 dark:bg-transparent"
         >
           <ul className="m-0 list-none p-0">
             {project.details.gallery.map((image, index) => (
               <li key={index} className="mb-10 md:max-w-none">
-                <Card className="shadow-dark-black/30 dark:shadow-white-pure/30 overflow-hidden rounded-2xl border-0 bg-transparent p-0 shadow-2xl">
+                <Card className="overflow-hidden rounded-2xl border-0 bg-transparent p-0">
                   <Image
                     src={image.src}
                     alt={image.alt}
