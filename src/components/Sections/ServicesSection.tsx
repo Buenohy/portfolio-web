@@ -52,15 +52,19 @@ export default function ServicesSection({
         <ul className="grid grid-cols-1 gap-7 lg:grid-cols-3">
           {translations.cards.map(
             ({ id, iconHeader, title, description, badges, iconFooter }) => (
-              <li key={id} className="lg:flex lg:flex-col">
-                <article className="lg:flex lg:flex-col">
+              // 1. O li deve ser flex para que o article possa crescer
+              <li key={id} className="flex">
+                {/* 2. O article e o Card devem ter flex-1 e h-full para preencher o li */}
+                <article className="flex w-full flex-col">
                   <Card className="shadow-dark-black/30 dark:shadow-white-pure/30 flex h-full flex-col rounded-xl bg-gradient-to-b from-[#0c1c251a]/200 via-white to-white shadow-xl dark:border-[#fbfbff1a] dark:bg-gradient-to-b dark:from-[#29292b] dark:via-[#0c1c251a] dark:to-[#0c1c251a]">
-                    <CardContent className="flex flex-col items-center justify-center p-6">
+                    {/* 3. CardContent com flex-1 para ocupar todo o espaço do Card */}
+                    <CardContent className="flex flex-1 flex-col items-center p-6">
                       <CardHeader className="text-dark-black dark:text-white-pure flex items-center justify-center p-0 pb-4">
                         <Icon icon={iconHeader} className="h-30 w-30" />
                       </CardHeader>
 
-                      <div className="text-center">
+                      {/* 4. DIV CENTRAL com flex-1: Ela vai crescer e empurrar o footer para baixo */}
+                      <div className="flex flex-1 flex-col items-center justify-center text-center">
                         <CardTitle className="text-dark-black dark:text-white-pure text-3xl">
                           {title}
                         </CardTitle>
@@ -79,6 +83,7 @@ export default function ServicesSection({
                         </div>
                       </div>
 
+                      {/* 5. Footer fixo no final graças ao flex-1 da div acima */}
                       <CardFooter className="text-dark-black dark:text-white-pure mt-4 flex items-center justify-center p-0">
                         <Icon icon={iconFooter} className="h-30 w-30" />
                       </CardFooter>
