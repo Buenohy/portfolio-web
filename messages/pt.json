@@ -355,6 +355,199 @@
             }
           ]
         }
+      },
+      "react-calculator": {
+        "id": 6,
+        "slug": "react-calculator",
+        "src": "/images/react-calculator/react-calculator-1.png",
+        "alt": "Interface da Calculadora JavaScript",
+        "title": "Calculadora React",
+        "tag": "PROJETO PESSOAL",
+        "badges": ["WEB APPLICATION", "ALGORITHMS", "UI/UX", "SIDE PROJECT"],
+        "description": "Desenvolvi uma calculadora web totalmente funcional com JavaScript puro, criando um motor de cálculo que interpreta expressões matemáticas complexas e uma interface responsiva para uma experiência impecável em qualquer dispositivo.",
+        "details": {
+          "titleParagraph": "Como Engenheiro de Software, foquei em construir uma aplicação robusta e eficiente do zero, sem o uso de frameworks:",
+          "strongParagraphs": [
+            {
+              "title": "Motor de Cálculo Inteligente",
+              "text": "Desenvolvi o motor de cálculo do zero em JavaScript puro, implementando um algoritmo que analisa e avalia expressões matemáticas, respeitando a ordem de operações (PEMDAS) e o uso de parênteses."
+            },
+            {
+              "title": "Interface Responsiva com HTML/CSS",
+              "text": "Construí uma interface de usuário moderna e totalmente responsiva com HTML5 semântico e CSS Grid, garantindo uma experiência de uso intuitiva e consistente em desktops, tablets e dispositivos móveis."
+            },
+            {
+              "title": "Gerenciamento de Estado sem Frameworks",
+              "text": "Criei um sistema de gerenciamento de estado em JavaScript puro para controlar a entrada do usuário, as operações pendentes e a exibição do resultado, manipulando o DOM de forma eficiente sem depender de bibliotecas externas."
+            }
+          ],
+          "stacks": [
+            { "nameStack": "React", "iconStack": "devicon:react" },
+            { "nameStack": "TypeScript", "iconStack": "devicon:typescript" },
+            { "nameStack": "Tailwind CSS", "iconStack": "devicon:tailwindcss" },
+            { "nameStack": "React Router", "iconStack": "devicon:reactrouter" },
+            { "nameStack": "Vite", "iconStack": "devicon:vitejs" }
+          ],
+          "gallery": [
+            {
+              "src": "/images/react-calculator/react-calculator-1.png",
+              "alt": "Calculadora em tela de desktop",
+              "title": "Visão Desktop"
+            },
+            {
+              "src": "/images/react-calculator/react-calculator-mobile-1.png",
+              "alt": "Calculadora em tela de celular",
+              "title": "Visão Mobile"
+            },
+            {
+              "src": "/images/javascript-calculator/javascript-calculator-2.png",
+              "alt": "Calculadora realizando uma operação",
+              "title": "Cálculo em Ação"
+            },
+            {
+              "src": "/images/javascript-calculator/javascript-calculator-3.png",
+              "alt": "Calculadora Resultado",
+              "title": "Resultado"
+            }
+          ]
+        }
+      },
+      "gallery-plus": {
+        "id": 7,
+        "slug": "gallery-plus",
+        "src": "/images/gallery-plus/gallery-plus-1.png",
+        "alt": "Interface da Calculadora JavaScript",
+        "title": "Gallery Plus",
+        "tag": "PROJETO PESSOAL",
+        "badges": ["WEB APPLICATION", "ALGORITHMS", "UI/UX", "SIDE PROJECT"],
+        "description": "Desenvolvi uma calculadora web totalmente funcional com JavaScript puro, criando um motor de cálculo que interpreta expressões matemáticas complexas e uma interface responsiva para uma experiência impecável em qualquer dispositivo.",
+        "details": {
+          "titleParagraph": "Como Engenheiro de Software, foquei em construir uma aplicação robusta e eficiente do zero, sem o uso de frameworks:",
+          "strongParagraphs": [
+            {
+              "title": "Motor de Cálculo Inteligente",
+              "text": "Desenvolvi o motor de cálculo do zero em JavaScript puro, implementando um algoritmo que analisa e avalia expressões matemáticas, respeitando a ordem de operações (PEMDAS) e o uso de parênteses."
+            },
+            {
+              "title": "Interface Responsiva com HTML/CSS",
+              "text": "Construí uma interface de usuário moderna e totalmente responsiva com HTML5 semântico e CSS Grid, garantindo uma experiência de uso intuitiva e consistente em desktops, tablets e dispositivos móveis."
+            },
+            {
+              "title": "Gerenciamento de Estado sem Frameworks",
+              "text": "Criei um sistema de gerenciamento de estado em JavaScript puro para controlar a entrada do usuário, as operações pendentes e a exibição do resultado, manipulando o DOM de forma eficiente sem depender de bibliotecas externas."
+            }
+          ],
+          "stacks": [
+            { "nameStack": "React", "iconStack": "devicon:react" },
+            { "nameStack": "TypeScript", "iconStack": "devicon:typescript" },
+            { "nameStack": "Tailwind CSS", "iconStack": "devicon:tailwindcss" },
+            { "nameStack": "React Router", "iconStack": "devicon:reactrouter" },
+            { "nameStack": "Vite", "iconStack": "devicon:vitejs" }
+          ],
+          "gallery": [
+            {
+              "src": "/images/gallery-plus/gallery-plus-1.png",
+              "alt": "Calculadora em tela de desktop",
+              "title": "Visão Desktop"
+            },
+            {
+              "src": "/images/gallery-plus/gallery-plus-2.png",
+              "alt": "Calculadora em tela de celular",
+              "title": "Visão Mobile"
+            },
+            {
+              "src": "/images/gallery-plus/gallery-plus-3.png",
+              "alt": "Calculadora realizando uma operação",
+              "title": "Cálculo em Ação"
+            },
+            {
+              "src": "/images/gallery-plus/gallery-plus-4.png",
+              "alt": "Calculadora Resultado",
+              "title": "Resultado"
+            },
+            {
+              "src": "/images/gallery-plus/gallery-plus-4.png",
+              "alt": "Calculadora Resultado",
+              "title": "Resultado"
+            },
+            {
+              "src": "/images/gallery-plus/gallery-plus-mobile-5.png",
+              "alt": "Calculadora Resultado",
+              "title": "Resultado"
+            },
+            {
+              "src": "/images/gallery-plus/gallery-plus-mobile-6.png",
+              "alt": "Calculadora Resultado",
+              "title": "Resultado"
+            },
+            {
+              "src": "/images/gallery-plus/gallery-plus-mobile-7.png",
+              "alt": "Calculadora Resultado",
+              "title": "Resultado"
+            },
+            {
+              "src": "/images/gallery-plus/gallery-plus-mobile-8.png",
+              "alt": "Calculadora Resultado",
+              "title": "Resultado"
+            }
+          ]
+        }
+      },
+      "react-todo": {
+        "id": 7,
+        "slug": "react-todo",
+        "src": "/images/react-todo/react-todo-1.png",
+        "alt": "Interface da Calculadora JavaScript",
+        "title": "React Todo",
+        "tag": "PROJETO PESSOAL",
+        "badges": ["WEB APPLICATION", "ALGORITHMS", "UI/UX", "SIDE PROJECT"],
+        "description": "Desenvolvi uma calculadora web totalmente funcional com JavaScript puro, criando um motor de cálculo que interpreta expressões matemáticas complexas e uma interface responsiva para uma experiência impecável em qualquer dispositivo.",
+        "details": {
+          "titleParagraph": "Como Engenheiro de Software, foquei em construir uma aplicação robusta e eficiente do zero, sem o uso de frameworks:",
+          "strongParagraphs": [
+            {
+              "title": "Motor de Cálculo Inteligente",
+              "text": "Desenvolvi o motor de cálculo do zero em JavaScript puro, implementando um algoritmo que analisa e avalia expressões matemáticas, respeitando a ordem de operações (PEMDAS) e o uso de parênteses."
+            },
+            {
+              "title": "Interface Responsiva com HTML/CSS",
+              "text": "Construí uma interface de usuário moderna e totalmente responsiva com HTML5 semântico e CSS Grid, garantindo uma experiência de uso intuitiva e consistente em desktops, tablets e dispositivos móveis."
+            },
+            {
+              "title": "Gerenciamento de Estado sem Frameworks",
+              "text": "Criei um sistema de gerenciamento de estado em JavaScript puro para controlar a entrada do usuário, as operações pendentes e a exibição do resultado, manipulando o DOM de forma eficiente sem depender de bibliotecas externas."
+            }
+          ],
+          "stacks": [
+            { "nameStack": "React", "iconStack": "devicon:react" },
+            { "nameStack": "TypeScript", "iconStack": "devicon:typescript" },
+            { "nameStack": "Tailwind CSS", "iconStack": "devicon:tailwindcss" },
+            { "nameStack": "React Router", "iconStack": "devicon:reactrouter" },
+            { "nameStack": "Vite", "iconStack": "devicon:vitejs" }
+          ],
+          "gallery": [
+            {
+              "src": "/images/react-todo/react-todo-1.png",
+              "alt": "Calculadora em tela de desktop",
+              "title": "Visão Desktop White"
+            },
+            {
+              "src": "/images/react-todo/react-todo-dark-1.png",
+              "alt": "Calculadora em tela de desktop",
+              "title": "Visão Desktop Dark"
+            },
+            {
+              "src": "/images/react-todo/react-todo-mobile-1.png",
+              "alt": "Calculadora em tela de celular",
+              "title": "Visão Mobile"
+            },
+            {
+              "src": "/images/react-todo/react-todo-mobile-dark-1.png",
+              "alt": "Calculadora realizando uma operação",
+              "title": "Cálculo em Ação"
+            }
+          ]
+        }
       }
     }
   },
