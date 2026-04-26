@@ -34,7 +34,7 @@ export default function ServicesSection({
 }: ServicesSectionProps) {
   return (
     <section className="flex flex-col gap-10 px-5 pb-30 lg:px-10" id="services">
-      <div className="max-w-7xl">
+      <div className="mx-auto max-w-7xl">
         <div className="lg:flex lg:self-start">
           <div>
             <h2 className="text-dark-black dark:text-white-pure my-1 text-xl font-bold uppercase sm:text-2xl lg:mb-4">
