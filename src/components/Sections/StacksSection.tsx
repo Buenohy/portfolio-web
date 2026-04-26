@@ -16,7 +16,10 @@ type StacksSectionProps = {
 
 export default function StacksSection({ translations }: StacksSectionProps) {
   return (
-    <section className="my-10 flex flex-col gap-10 px-5 pb-20" id="stacks">
+    <section
+      className="mx-auto my-10 flex flex-col gap-10 px-5 pb-20 lg:px-10"
+      id="stacks"
+    >
       <h2 className="dark:text-white-pure text-center text-base font-extralight text-black uppercase">
         {translations.sectionTitle}
       </h2>
